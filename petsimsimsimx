@@ -1,0 +1,83 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local hatchpet = Instance.new("TextButton")
+local hugecat = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local autofarm = Instance.new("TextButton")
+local petspawn = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+main.Position = UDim2.new(0.0257092193, 0, 0.647711515, 0)
+main.Size = UDim2.new(0, 389, 0, 214)
+
+hatchpet.Name = "hatchpet"
+hatchpet.Parent = main
+hatchpet.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+hatchpet.BorderColor3 = Color3.fromRGB(33, 255, 6)
+hatchpet.Position = UDim2.new(0.549349129, 0, 0.289991707, 0)
+hatchpet.Size = UDim2.new(0, 168, 0, 54)
+hatchpet.Font = Enum.Font.SourceSans
+hatchpet.Text = "Hatch Any Pet Script"
+hatchpet.TextColor3 = Color3.fromRGB(33, 255, 6)
+hatchpet.TextSize = 25.000
+hatchpet.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/hackerDashDash/PetSimulatorX/main/PetSimulatorXV2.lua",true))()
+end)
+hugecat.Name = "hugecat"
+hugecat.Parent = main
+hugecat.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+hugecat.BorderColor3 = Color3.fromRGB(33, 255, 6)
+hugecat.Position = UDim2.new(0.0217210036, 0, 0.289991707, 0)
+hugecat.Size = UDim2.new(0, 187, 0, 54)
+hugecat.Font = Enum.Font.SourceSans
+hugecat.Text = "Huge Cat Visual Script"
+hugecat.TextColor3 = Color3.fromRGB(33, 255, 6)
+hugecat.TextSize = 25.000
+hugecat.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/BgsHacker/PetSimulatorXScriptv.2/1e5cd6ac7ede9f7e72391cd1b3ceb9f097ee0fd0/PetSimulatorXScriptv.2BgsHacker",true))()
+end)
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(-0.0025684163, 0, -0.00182121992, 0)
+TextLabel.Size = UDim2.new(0, 389, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Huey's Pet Simulator X Hub (not my scripts creds to bgs hacker and Hacker-_-)"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+autofarm.Name = "autofarm"
+autofarm.Parent = main
+autofarm.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+autofarm.BorderColor3 = Color3.fromRGB(33, 255, 6)
+autofarm.Position = UDim2.new(0.0191503167, 0, 0.649804771, 0)
+autofarm.Size = UDim2.new(0, 187, 0, 54)
+autofarm.Font = Enum.Font.SourceSans
+autofarm.Text = "Autofarm Script"
+autofarm.TextColor3 = Color3.fromRGB(33, 255, 6)
+autofarm.TextSize = 25.000
+autofarm.MouseButton1Click:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/4lve/Roblox/main/PetSimX.lua"))()
+end)
+
+petspawn.Name = "petspawn"
+petspawn.Parent = main
+petspawn.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+petspawn.BorderColor3 = Color3.fromRGB(33, 255, 6)
+petspawn.Position = UDim2.new(0.535859883, 0, 0.649804831, 0)
+petspawn.Size = UDim2.new(0, 173, 0, 54)
+petspawn.Font = Enum.Font.SourceSans
+petspawn.Text = "petspawn (not finished)"
+petspawn.TextColor3 = Color3.fromRGB(33, 255, 6)
+petspawn.TextSize = 25.000
