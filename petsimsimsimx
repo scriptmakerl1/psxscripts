@@ -70,7 +70,7 @@ autofarm.Text = "Autofarm Script"
 autofarm.TextColor3 = Color3.fromRGB(33, 255, 6)
 autofarm.TextSize = 25.000
 autofarm.MouseButton1Click:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/4lve/Roblox/main/PetSimX.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Schervi/FloppaHub/main/FloppaHubMain.lua"))()
 end)
 
 petspawn.Name = "petspawn"
