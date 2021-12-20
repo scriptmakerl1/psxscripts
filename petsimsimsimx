@@ -30,6 +30,8 @@ main.Parent = TextButton
 main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 main.Position = UDim2.new(-8.75498772, 0, -3.67136288, 0)
 main.Size = UDim2.new(0, 389, 0, 214)
+main.Active = true
+main.Draggable = true
 
 hatchpet.Name = "hatchpet"
 hatchpet.Parent = main
